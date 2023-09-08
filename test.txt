@@ -2,9 +2,8 @@ var breakfast = "beignets";
 var beverage = "cafe au lait";
 breakfast = "beignets with " + beverage;
 
-{
+for (var i = 0; i <= 2; i = i + 1) {
     var c = " test";
-    c = c + c;
     breakfast = breakfast + c;
 }
 
